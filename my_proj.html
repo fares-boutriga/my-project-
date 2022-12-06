@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FARES SHOP</title>
+	<link rel="stylesheet" href="my_proj.css">
+</head>
+<body>
+
+<div class="topnav">
+	<img id="logo" src="logo.png">
+  <p id="logo1">Welcom in FARES-CARS</p>
+
+  </div>
+</div>
+
+<div id="c1" class="card">
+  <img src="x7.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">BMW X7 xDrive40i </h5>
+     <button id="btn1">Detals</button>
+    <p id="t1" class="card-text">Consommation en l/100 km (cycle mixte, WLTP) : 10,6–9,6
+Émissions de CO2 en g/km (cycle mixte, WLTP) : 240-217.</p>
+    <a href="https://www.bmw-tunisia.com/fr/all-models/x-series/x7/2022/bmw-x7-apercu.html" class="btn btn-primary">More details</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 200px";>
+  <img src="ix.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">BMW iX xDrive50 </h5>
+ <button id="btn2">Detals</button>
+    <p id="t2" class="card-text">With a range of up to 620 km*, the BMW iX xDrive50 is ideal for city and long journeys.</p>
+    <a href="https://www.bmw-tunisia.com/fr/all-models/bmw-i/bmw-ix-new/2021/bmw-ix.html" class="btn btn-primary">More details</a>
+  </div>
+
+</div>
+
+<div class="card">
+  <img src="m3.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">BMW M3 COMPETITION SEDAN </h5>
+    <button id="btn3">Detals</button>
+    <p id="t3" class="card-text">BMW M3 Competition Cabrio with M xDrive:Fuel consumption in l/100 km (combined): 10.1–10.0
+CO2 emissions in g/km (combined): 230–228</p>
+    <a href="https://www.bmw-tunisia.com/fr/all-models/m-series/m3-sedan/2022/bmw-3er-limousine-m-automobile-ueberblick.html#build-price" class="btn btn-primary">More details</a>
+  </div>
+</div>
+
+<div class="card" >
+  <img src="a5.png" class="card-img-top"style="width: 200px;" >
+  <div class="card-body">
+    <h5 class="card-title">Audi A5 Sportback </h5>
+    <button id="btn4">Detals</button>
+    <p id="t4" class="card-text">Audi Sport Quattro, sculpted sidewalls and typical wavy body line. To enhance the sportiness of the Audi 5-door coupe</p>
+    <a href="https://www.audi.fr/fr/web/fr/gamme/a5/a5-sportback.html">More details</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="q2.png" class="card-img-top" style="width:350px">
+  <div class="card-body">
+    <h5 class="card-title">BMW M3 COMPETITION SEDAN </h5>
+    <button id="btn5">Detals</button>
+    <p id="t5" class="card-text">The Audi Q2 has character and surprises. Its redesigned front and rear bumpers as well as its original and dynamic lines affirm its strength. Let yourself be surprised</p>
+    <a href="https://www.audi.fr/fr/web/fr/gamme/q2/q2.html" class="btn btn-primary">More details</a>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script >
+  $(document).ready(function(){
+    $("#btn1").on("click ",function(){
+ $ ("#t1").toggle(2000);
+});})
+
+    $(document).ready(function(){
+    $("#btn2").on("click ",function(){
+ $ ("#t2").toggle(2000);
+});})
+
+    $(document).ready(function(){
+    $("#btn3").on("click ",function(){
+ $ ("#t3").toggle(2000);
+});})
+
+    $(document).ready(function(){
+    $("#btn4").on("click ",function(){
+ $ ("#t4").toggle(2000);
+});})
+
+    $(document).ready(function(){
+    $("#btn5").on("click ",function(){
+ $ ("#t5").toggle(2000);
+});})
+
+
+</script>
+
+<script src="my_proj.js"></script>
+
+</body>
+</html>
